@@ -1,35 +1,29 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <footer>
-      <div className="footer-list bg-blue">
+      <div className="footer-list bg-blue p-30">
         <div className="container">
-          <ul>
+          <ul className="icon-list d-flex g-30 justify-center">
             <li>
               <img src="/img/buy-comics-digital-comics.png" alt="" />
               <a href="#">DIGITAL COMICS</a>
             </li>
-          </ul>
-          <ul>
+
             <li>
               <img src="public/img/buy-comics-merchandise.png" alt="" />
               <a href="#">DC MERCHANDISE</a>
             </li>
-          </ul>
-          <ul>
+
             <li>
               <img src="public/img/buy-comics-subscriptions.png" alt="" />
               <a href="#">SUBSCRIPTION</a>
             </li>
-          </ul>
-          <ul>
+
             <li>
-              <img src="public/img/buy-comics-shop-locator.png" alt="" />
+              <img  src="public/img/buy-comics-shop-locator.png" alt="" />
               <a href="#">COMIC SHOP LOCATOR</a>
             </li>
-          </ul>
-          <ul>
+
             <li>
               <img src="public/img/buy-dc-power-visa.svg" alt="" />
               <a href="#">DC POWER VISA</a>
@@ -51,7 +45,7 @@ const Footer = () => {
                 <li>Videos</li>
                 <li>News</li>
               </ul>
-              <h3>SHOP</h3>
+              <h3 className="mt-15">SHOP</h3>
               <ul>
                 <li>Shop DC</li>
                 <li>Shop DC Collectibles</li>
@@ -84,9 +78,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-50">
-            <img src="./img/dc-logo-bg.png" alt="" />
-          </div>
+          <div className="col-50 logo-bg"></div>
         </div>
       </div>
       <div className="bottom-footer">
@@ -103,7 +95,6 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-
   );
 };
 

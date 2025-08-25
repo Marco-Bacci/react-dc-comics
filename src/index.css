@@ -8,19 +8,30 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 /* UTILITIES */
-.bg-blue{
-  background-color: rgb(12, 124, 236) ;
+.bg-blue {
+  background-color: rgb(12, 124, 236);
 }
-.d-flex{
+.d-flex {
   display: flex;
 }
-.g-15{
+.g-15 {
   gap: 15px;
 }
-.align-items-center{
+.g-30 {
+  gap: 30px;
+}
+.align-items-center {
   align-items: center;
 }
-
+.p-30 {
+  padding: 30px;
+}
+.justify-center{
+  justify-content: center;
+}
+.mt-15{
+  margin-top: 15px;
+}
 /* *******************HEADER********************** */
 header {
   padding: 20px;
@@ -41,48 +52,71 @@ ul {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(70, 68, 68);
 }
 
 #menu {
   display: flex;
   gap: 15px;
+  font-size: 0.7em;
+  font-weight: bold;
 }
-a:hover{
+a:hover {
   color: rgb(2, 130, 249);
 }
 /* *******************MAIN********************** */
-main{
+main {
   background-color: black;
   color: white;
   padding: 50px;
 }
 /* *******************FOOTER********************** */
+
 .footer-list a {
   color: white;
+  font-size: 0.7em;
 }
 .footer-list img {
-  width: 50px;
+  width: 40px;
+  margin: 0px 10px;
 }
+.icon-list li {
+  display: flex;
+  align-items: center;
+}
+
 /* main footer */
-.main-footer{
-  background-image: url('/img/footer-bg.jpg');
+.main-footer {
+  background-image: url("/img/footer-bg.jpg");
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   color: white;
+  padding: 30px;
 }
-.col-33{
+.logo-bg {
+  background: url("./img/dc-logo-bg.png") center no-repeat;
+  background-size: cover;
+}
+
+.col-33 {
   width: calc(100% / 3);
 }
-footer ul{
+footer ul {
   padding: 0px;
 }
+footer ul li {
+  color: grey;
+  font-size: 0.8em;
+}
+footer h3{
+  margin-bottom: 15px;
+}
 /* bottom footer */
-.bottom-footer{
+.bottom-footer {
   background-color: rgb(48, 48, 48);
   padding: 30px;
 }
-button{
+button {
   padding: 10px;
   border: 2px solid rgb(2, 130, 249);
   background-color: inherit;
@@ -90,10 +124,10 @@ button{
   font-weight: bold;
   font-size: 1.2em;
 }
-span img{
+span img {
   padding: 10px;
 }
-span{
+span {
   color: rgb(2, 130, 249);
   font-weight: bold;
   font-size: 1.2em;
