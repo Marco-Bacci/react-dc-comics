@@ -15,7 +15,7 @@ body {
   display: flex;
 }
 
-/* *******************MAIN********************** */
+/* *******************HEADER********************** */
 header {
   padding: 20px;
 }
@@ -60,9 +60,14 @@ main{
 }
 /* main footer */
 .main-footer{
-  background-image: url('/img/footer-bg.png');
+  background-image: url('/img/footer-bg.jpg');
   background-repeat: no-repeat;
+  background-size: cover; 
+  color: white;
 }
 .col-33{
   width: calc(100% / 3);
+}
+footer ul{
+  padding: 0px;
 }
