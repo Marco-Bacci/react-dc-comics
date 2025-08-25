@@ -26,10 +26,10 @@ body {
 .p-30 {
   padding: 30px;
 }
-.justify-center{
+.justify-center {
   justify-content: center;
 }
-.mt-15{
+.mt-15 {
   margin-top: 15px;
 }
 /* *******************HEADER********************** */
@@ -108,7 +108,7 @@ footer ul li {
   color: grey;
   font-size: 0.8em;
 }
-footer h3{
+footer h3 {
   margin-bottom: 15px;
 }
 /* bottom footer */
@@ -123,6 +123,11 @@ button {
   color: white;
   font-weight: bold;
   font-size: 1.2em;
+  cursor: pointer;
+}
+button:hover {
+  border-color: grey;
+  background-color: darkgrey;
 }
 span img {
   padding: 10px;
