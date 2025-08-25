@@ -71,3 +71,7 @@ main{
 footer ul{
   padding: 0px;
 }
+/* bottom footer */
+.bottom-footer{
+  background-color: rgb(48, 48, 48);
+}

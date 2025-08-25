@@ -43,27 +43,13 @@ const Footer = () => {
             <div className="col-33">
               <h3>DC COMICS</h3>
               <ul>
-                <li>
-                  Characters
-                </li>
-                <li>
-                  Comics
-                </li>
-                <li>
-                  Movies
-                </li>
-                <li>
-                  TV
-                </li>
-                <li>
-                  Games
-                </li>
-                <li>
-                  Videos
-                </li>
-                <li>
-                  News
-                </li>
+                <li>Characters</li>
+                <li>Comics</li>
+                <li>Movies</li>
+                <li>TV</li>
+                <li>Games</li>
+                <li>Videos</li>
+                <li>News</li>
               </ul>
               <h3>SHOP</h3>
               <ul>
@@ -103,7 +89,21 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="bottom-footer">
+        <div className="container">
+          <button>SIGN UP NOW!</button>
+          <span>
+            FOLLOW US
+            <img src="/img/footer-facebook.png" alt="" />
+            <img src="/img/footer-twitter.png" alt="" />
+            <img src="/img/footer-youtube.png" alt="" />
+            <img src="/img/footer-pinterest.png" alt="" />
+            <img src="/img/footer-periscope.png" alt="" />
+          </span>
+        </div>
+      </div>
     </footer>
+
   );
 };
 
