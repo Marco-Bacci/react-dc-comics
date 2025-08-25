@@ -92,14 +92,14 @@ const Footer = () => {
       <div className="bottom-footer">
         <div className="container">
           <button>SIGN UP NOW!</button>
-          <span>
-            FOLLOW US
+          <div className="d-flex g-15 align-items-center">
+            <span>FOLLOW US</span>
             <img src="/img/footer-facebook.png" alt="" />
             <img src="/img/footer-twitter.png" alt="" />
             <img src="/img/footer-youtube.png" alt="" />
             <img src="/img/footer-pinterest.png" alt="" />
             <img src="/img/footer-periscope.png" alt="" />
-          </span>
+          </div>
         </div>
       </div>
     </footer>

@@ -14,6 +14,12 @@ body {
 .d-flex{
   display: flex;
 }
+.g-15{
+  gap: 15px;
+}
+.align-items-center{
+  align-items: center;
+}
 
 /* *******************HEADER********************** */
 header {
@@ -74,4 +80,21 @@ footer ul{
 /* bottom footer */
 .bottom-footer{
   background-color: rgb(48, 48, 48);
+  padding: 30px;
+}
+button{
+  padding: 10px;
+  border: 2px solid rgb(2, 130, 249);
+  background-color: inherit;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+span img{
+  padding: 10px;
+}
+span{
+  color: rgb(2, 130, 249);
+  font-weight: bold;
+  font-size: 1.2em;
 }
