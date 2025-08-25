@@ -7,7 +7,8 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
-header{
+/* *******************MAIN********************** */
+header {
   padding: 20px;
 }
 .container {
@@ -24,12 +25,20 @@ ul {
   list-style-type: none;
   padding: 10px;
 }
-a{
+a {
   text-decoration: none;
   color: black;
 }
 #menu {
-  display:flex;
+  display: flex;
   gap: 15px;
-  
+}
+a:hover{
+  color: rgb(2, 130, 249);
+}
+/* *******************MAIN********************** */
+main{
+  background-color: black;
+  color: white;
+  padding: 50px;
 }
