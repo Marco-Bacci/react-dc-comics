@@ -7,6 +7,11 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+/* UTILITIES */
+.bg-blue{
+  background-color: rgb(12, 124, 236) ;
+}
+
 /* *******************MAIN********************** */
 header {
   padding: 20px;
@@ -29,6 +34,7 @@ a {
   text-decoration: none;
   color: black;
 }
+
 #menu {
   display: flex;
   gap: 15px;
@@ -43,3 +49,9 @@ main{
   padding: 50px;
 }
 /* *******************FOOTER********************** */
+.footer-list a {
+  color: white;
+}
+.footer-list img {
+  width: 50px;
+}
