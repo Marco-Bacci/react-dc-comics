@@ -2,12 +2,12 @@ const Header = () => {
   return (
     <header>
       <div className="container">
-        <div className="header-col">
+        <div className="col-50">
           <div id="logo">
             <img src="/img/dc-logo.png" alt="logo" />
           </div>
         </div>
-        <div className="header-col">
+        <div className="col-50">
           <ul id='menu'>
             <li><a href="#">CHARACTERS</a></li>
             <li><a href="#">COMICS</a></li>
