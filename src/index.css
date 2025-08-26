@@ -72,13 +72,30 @@ a:hover {
 main {
   background-color: black;
   color: white;
-  
 }
-#jumbotron{
+#jumbotron {
   height: 400px;
   background-image: url("/img/jumbotron.jpg");
   background-size: cover;
 }
+.fakebutton {
+  color: white;
+  padding: 10px;
+  background-color: rgb(2, 130, 249);
+  width: 250px;
+  text-align: center;
+  position: relative;
+  top: -25px;
+}
+.col-15 {
+  width: 15%;
+  margin: 20px 10px;
+}
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
+
 
 /* *******************FOOTER********************** */
 
