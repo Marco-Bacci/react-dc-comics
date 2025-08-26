@@ -1,42 +1,71 @@
-import React from 'react'
 
 const Navbar = () => {
+  const links = [
+    {
+      id: 1,
+      label: "CHARACTERS",
+      href: "#",
+    },
+    {
+      id: 2,
+      label: "COMICS",
+      href: "#",
+    },
+    {
+      id: 3,
+      label: "MOVIES",
+      href: "#",
+    },
+    {
+      id: 4,
+      label: "TV",
+      href: "#",
+    },
+    {
+      id: 5,
+      label: "GAMES",
+      href: "#",
+    },
+    {
+      id: 6,
+      label: "COLLECTIBLES",
+      href: "#",
+    },
+    {
+      id: 7,
+      label: "VIDEOS",
+      href: "#",
+    },
+    {
+      id: 8,
+      label: "FANS",
+      href: "#",
+    },
+    {
+      id: 9,
+      label: "NEWS",
+      href: "#",
+    },
+    {
+      id: 10,
+      label: "SHOP",
+      href: "#",
+    },
+  ];
+
   return (
     <>
       <ul id="menu">
-              <li>
-                <a href="#">CHARACTERS</a>
-              </li>
-              <li>
-                <a href="#">COMICS</a>
-              </li>
-              <li>
-                <a href="#">MOVIES</a>
-              </li>
-              <li>
-                <a href="#">TV</a>
-              </li>
-              <li>
-                <a href="#">GAMES</a>
-              </li>
-              <li>
-                <a href="#">COLLECTIBLES</a>
-              </li>
-              <li>
-                <a href="#">VIDEOS</a>
-              </li>
-              <li>
-                <a href="#">FANS</a>
-              </li>
-              <li>
-                <a href="#">NEWS</a>
-              </li>
-              <li>
-                <a href="#">SHOP</a>
-              </li>
-            </ul>
+        {links.map((link) => {
+          return (
+            <li key = {link.id}>
+              <a href={link.href}>{link.label}</a>
+            </li>
+          );
+        })}
+      </ul>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
