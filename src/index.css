@@ -29,8 +29,8 @@ body {
 .p-30 {
   padding: 30px;
 }
-.justify-center {
-  justify-content: center;
+.justify-around {
+  justify-content: space-around;
 }
 .mt-15 {
   margin-top: 15px;
@@ -95,7 +95,6 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding: 30px;
 }
 .logo-bg {
   background: url("./img/dc-logo-bg.png") center no-repeat;

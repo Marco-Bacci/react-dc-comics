@@ -3,7 +3,7 @@ const Footer = () => {
     <footer>
       <div className="footer-list bg-blue p-30">
         <div className="container">
-          <ul className="icon-list d-flex g-30 justify-center">
+          <ul className="icon-list d-flex g-30 justify-around">
             <li>
               <img src="/img/buy-comics-digital-comics.png" alt="" />
               <a href="#">DIGITAL COMICS</a>
@@ -34,7 +34,7 @@ const Footer = () => {
       <div className="main-footer">
         <div className="container">
           <div className="row">
-            <div className="col-50">
+            <div className="col-50 p-30">
               <div className="row">
                 <div className="col-33">
                   <h3>DC COMICS</h3>
