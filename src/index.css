@@ -72,8 +72,14 @@ a:hover {
 main {
   background-color: black;
   color: white;
-  padding: 50px;
+  
 }
+#jumbotron{
+  height: 400px;
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+}
+
 /* *******************FOOTER********************** */
 
 .footer-list a {
