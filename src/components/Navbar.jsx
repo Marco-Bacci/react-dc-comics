@@ -51,15 +51,17 @@ const Navbar = () => {
       label: "SHOP",
       href: "#",
     },
+    
   ];
 
   return (
     <>
       <ul id="menu">
         {links.map((link) => {
+          const {id, href, label} = link
           return (
-            <li key = {link.id}>
-              <a href={link.href}>{link.label}</a>
+            <li key = {id}>
+              <a href={href}> {label}</a>
             </li>
           );
         })}

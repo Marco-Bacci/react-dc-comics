@@ -184,11 +184,12 @@ const Series = () => {
         </div>
         <div className="row">
           {comics.map((comic) => {
+            const { id, thumb, title, series } = comic;
             return (
               <div className="col-15">
-                <div className="card">
-                  <img src={comic.thumb} alt={comic.title} />
-                  <h4>{comic.series}</h4>
+                <div key={id} className="card">
+                  <img src={thumb} alt={title} />
+                  <h4>{series}</h4>
                 </div>
               </div>
             );
@@ -198,5 +199,6 @@ const Series = () => {
     </>
   );
 };
+
 
 export default Series;
