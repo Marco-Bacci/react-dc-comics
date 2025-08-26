@@ -20,7 +20,7 @@ const Footer = () => {
             </li>
 
             <li>
-              <img  src="public/img/buy-comics-shop-locator.png" alt="" />
+              <img src="public/img/buy-comics-shop-locator.png" alt="" />
               <a href="#">COMIC SHOP LOCATOR</a>
             </li>
 
@@ -33,64 +33,74 @@ const Footer = () => {
       </div>
       <div className="main-footer">
         <div className="container">
-          <div className="col-50 d-flex">
-            <div className="col-33">
-              <h3>DC COMICS</h3>
-              <ul>
-                <li>Characters</li>
-                <li>Comics</li>
-                <li>Movies</li>
-                <li>TV</li>
-                <li>Games</li>
-                <li>Videos</li>
-                <li>News</li>
-              </ul>
-              <h3 className="mt-15">SHOP</h3>
-              <ul>
-                <li>Shop DC</li>
-                <li>Shop DC Collectibles</li>
-              </ul>
+          <div className="row">
+            <div className="col-50">
+              <div className="row">
+                <div className="col-33">
+                  <h3>DC COMICS</h3>
+                  <ul>
+                    <li>Characters</li>
+                    <li>Comics</li>
+                    <li>Movies</li>
+                    <li>TV</li>
+                    <li>Games</li>
+                    <li>Videos</li>
+                    <li>News</li>
+                  </ul>
+                  <h3 className="mt-15">SHOP</h3>
+                  <ul>
+                    <li>Shop DC</li>
+                    <li>Shop DC Collectibles</li>
+                  </ul>
+                </div>
+                <div className="col-33">
+                  <h3>DC</h3>
+                  <ul>
+                    <li>Term Of Use</li>
+                    <li>Privacy Policy</li>
+                    <li>Ad Choices</li>
+                    <li>Advertising</li>
+                    <li>Jobs</li>
+                    <li>Subscriptions</li>
+                    <li>Talent Workshops</li>
+                    <li>CPSC Certificates</li>
+                    <li>Ratings</li>
+                    <li>Shop Help</li>
+                    <li>Contact Us</li>
+                  </ul>
+                </div>
+                <div className="col-33">
+                  <h3>SITES</h3>
+                  <ul>
+                    <li>DC</li>
+                    <li>MAD Magazine</li>
+                    <li>DC Kids</li>
+                    <li>DC Universe</li>
+                    <li>DC Power Visa</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div className="col-33">
-              <h3>DC</h3>
-              <ul>
-                <li>Term Of Use</li>
-                <li>Privacy Policy</li>
-                <li>Ad Choices</li>
-                <li>Advertising</li>
-                <li>Jobs</li>
-                <li>Subscriptions</li>
-                <li>Talent Workshops</li>
-                <li>CPSC Certificates</li>
-                <li>Ratings</li>
-                <li>Shop Help</li>
-                <li>Contact Us</li>
-              </ul>
-            </div>
-            <div className="col-33">
-              <h3>SITES</h3>
-              <ul>
-                <li>DC</li>
-                <li>MAD Magazine</li>
-                <li>DC Kids</li>
-                <li>DC Universe</li>
-                <li>DC Power Visa</li>
-              </ul>
-            </div>
+            <div className="col-50 logo-bg"></div>
           </div>
-          <div className="col-50 logo-bg"></div>
         </div>
       </div>
       <div className="bottom-footer">
         <div className="container">
-          <button>SIGN UP NOW!</button>
-          <div className="d-flex g-15 align-items-center">
-            <span>FOLLOW US</span>
-            <img src="/img/footer-facebook.png" alt="" />
-            <img src="/img/footer-twitter.png" alt="" />
-            <img src="/img/footer-youtube.png" alt="" />
-            <img src="/img/footer-pinterest.png" alt="" />
-            <img src="/img/footer-periscope.png" alt="" />
+          <div className="row">
+            <div className="col-50">
+              <button>SIGN UP NOW!</button>
+            </div>
+            <div className="col-50">
+              <div className="d-flex g-15 align-items-center justify-content-end">
+                <span>FOLLOW US</span>
+                <img src="/img/footer-facebook.png" alt="" />
+                <img src="/img/footer-twitter.png" alt="" />
+                <img src="/img/footer-youtube.png" alt="" />
+                <img src="/img/footer-pinterest.png" alt="" />
+                <img src="/img/footer-periscope.png" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

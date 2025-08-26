@@ -23,6 +23,9 @@ body {
 .align-items-center {
   align-items: center;
 }
+.justify-content-end {
+  justify-content: flex-end;
+}
 .p-30 {
   padding: 30px;
 }
@@ -39,9 +42,10 @@ header {
 .container {
   width: 1200px;
   margin: 0 auto;
+}
+.row {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
 }
 .col-50 {
   width: 50%;
