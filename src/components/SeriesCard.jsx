@@ -1,9 +1,9 @@
-const SeriesCard = ({key, title, img}) => {
+const SeriesCard = ({info}) => {
   return (
     <div className="col-15 ">
       <div className="card">
-        <img src={img} alt={title} />
-        <h4>{title}</h4>
+        <img src={info.thumb} alt={info.series} />
+        <h4>{info.series}</h4>
       </div>
     </div>
   );
