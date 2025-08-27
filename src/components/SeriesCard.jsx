@@ -1,9 +1,10 @@
 const SeriesCard = ({info}) => {
+  const {thumb, series} = info
   return (
     <div className="col-15 ">
       <div className="card">
-        <img src={info.thumb} alt={info.series} />
-        <h4>{info.series}</h4>
+        <img src={thumb} alt={series} />
+        <h4>{series}</h4>
       </div>
     </div>
   );
