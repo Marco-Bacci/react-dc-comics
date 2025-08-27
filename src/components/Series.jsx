@@ -1,3 +1,4 @@
+import SeriesCard from "./SeriesCard";
 const Series = () => {
   const comics = [
     {
@@ -186,12 +187,7 @@ const Series = () => {
           {comics.map((comic) => {
             const { id, thumb, title, series } = comic;
             return (
-              <div key={id}  className="col-15 ">
-                <div className="card">
-                  <img src={thumb} alt={title} />
-                  <h4>{series}</h4>
-                </div>
-              </div>
+             <SeriesCard key={id} title={series} img={thumb}  />
             );
           })}
         </div>
