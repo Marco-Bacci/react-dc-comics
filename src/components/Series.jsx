@@ -186,8 +186,8 @@ const Series = () => {
           {comics.map((comic) => {
             const { id, thumb, title, series } = comic;
             return (
-              <div className="col-15">
-                <div key={id} className="card">
+              <div key={id}  className="col-15 ">
+                <div className="card">
                   <img src={thumb} alt={title} />
                   <h4>{series}</h4>
                 </div>
