@@ -185,16 +185,13 @@ const Series = () => {
         </div>
         <div className="row">
           {comics.map((comic) => {
-            // const { id, thumb, title, series } = comic;
-            return (
-             <SeriesCard info={comic}  />
-            );
+            const { id, thumb, title, series } = comic;
+            return <SeriesCard info={comic}></SeriesCard>;
           })}
         </div>
       </div>
     </>
   );
 };
-
 
 export default Series;
